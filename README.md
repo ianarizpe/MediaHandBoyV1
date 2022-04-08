@@ -15,7 +15,7 @@ you can play them the old boring way...with buttons...
 
 
 
-![alt text](https://cdn.vox-cdn.com/thumbor/HOWiq29vUhGGTVTcjNqMA7refT4=/1400x1400/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/23249598/mgid_arc_imageassetref_comedycentral.jpeg)
+![alt text](https://www.escapistmagazine.com/wp-content/uploads/2022/02/Bender-ray-gun.jpg)
 
 
 
