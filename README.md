@@ -4,7 +4,7 @@ This media player currently features three hit generic songs
 
 you can play them the old boring way...with buttons...
 
-#OR YOU CAN USE THOSE HANDS 
+##OR YOU CAN USE THOSE HANDS 
 
  SIMPLY HOLD UP A ONE TO PLAY OR HOLD YOUR PALM UP
 
