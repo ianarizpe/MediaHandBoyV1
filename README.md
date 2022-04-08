@@ -1,4 +1,4 @@
-# MediaHandBoyV1
+# MediaHand READER V1
 
 This media player currently features three hit generic songs 
 
