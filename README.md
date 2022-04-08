@@ -6,7 +6,7 @@ you can play them the old boring way...with buttons...
 
 ## OR YOU CAN USE THOSE HANDS 
 
- SIMPLY HOLD UP A ONE TO PLAY OR HOLD YOUR PALM UP
+ SIMPLY HOLD UP A ONE TO PLAY OR HOLD YOUR PALM UP TO PAUSE
  
  
  ...(thumbs up and down currently broken due to a rapid song switching bug)
