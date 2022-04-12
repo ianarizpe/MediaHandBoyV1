@@ -20,13 +20,12 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"
     />
 
-  <link rel="stylesheet" type="text/css" href="styleSheets/style.css">
+  <link rel="stylesheet" type="text/css" href="styleSheets/playlist.css">
   <meta charset="utf-8">
   <title>Music Player</title>
 </head>
 
 <body>
-  <h1>Music Player</h1>
   <div class="music-container" id="music-container">
     <div class="music-info">
       <h4 id="title"></h4>
@@ -53,6 +52,27 @@
     </div>
   </div>
 
+  <div class="song_library_background" id="song_library_background">
+    
+    <button type="button1" class="button1" class="action-btn action-btn-big">  
+      <img src="images/ukulele.jpg" style="width:40%; height:80%; margin-left: -60%; border-radius: 5%;"/>
+      <h10> Ukulele</h10>
+      <h11>Chowder: 3:15</h11>
+    </button>
+    <button type="button2" class="button2">
+      <img src="images/summer.jpg" style="width:40%; height:80%; margin-left: -60%; border-radius: 5%;"/> 
+      <h10>Summer</h10>
+      <h11>Winter: 2:15</h11>
+    </button>
+    <button type="button3" class="button3"> 
+      <img src="images/hey.jpg" style="width:40%; height:80%; margin-left: -60%; border-radius: 5%;"/>
+      <h10>Hey!</h10>
+      <h11>Bye: 1:25</h11> 
+    </button>
+    <!--<div class="song_box_background2" id = "song_box_background2"> </div>>-->
+    <!--<div class="song_box_background3" id = "song_box_background3"> </div> >-->
+  </div> 
+
 
 
       <!--  Video that goes into media pipe and is classified by ml5-->
@@ -63,7 +83,7 @@
 
 <!--   JS info for classification and media pipe-->
 
-  <script defer="" src="media.js">
+  <script defer="" src="mediaForPlaylist.js">
     </script>
     <script src="songPlayer.js"></script>
     <!--   script hiding video-->
@@ -75,5 +95,5 @@
    output_canvas.style.display = "none";
     </script>
 
-<button type="next"><a href = "playlist.html">Continue </a></button>
+
 </body></html>

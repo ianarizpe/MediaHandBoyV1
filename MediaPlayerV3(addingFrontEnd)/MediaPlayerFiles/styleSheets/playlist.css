@@ -4,11 +4,46 @@
   box-sizing: border-box;
 }
 
+h10{
+  position: absolute;
+        width: 442px;
+        height: 44px;
+        left: 45%;
+        top: 5%;
+
+        font-family: Lusitana;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 48px;
+        line-height: 62px;
+        display: flex;
+        align-items: center;
+
+        color: #FFFFFF;
+}
+h11{
+  position: absolute;
+        width: 442px;
+        height: 44px;
+        left: 45%;
+        top: 30%;
+
+        font-family: Lusitana;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 62px;
+        display: flex;
+        align-items: center;
+
+        color: #FFFFFF;
+}
+
 body {
   background-image: linear-gradient(
     0deg,
     rgba(247, 247, 247, 1) 23.8%,
-    rgba(105, 208, 248) 92%
+    rgba(252, 221, 221, 1) 92%
   );
   height: 100vh;
   display: flex;
@@ -17,6 +52,110 @@ body {
   justify-content: center;
   font-family: 'Lato', sans-serif;
   margin: 0;
+}
+
+#song_library_background{
+  position: absolute;
+  width: 586px;
+  height: 674px;
+  left: 5%;
+  top: 10%;
+  border-radius: 5%;
+
+background: #000000;
+
+}
+
+#song_box_background{
+  position: absolute;
+  width: 560px;
+  height: 200px;
+  left: 2%;
+  top: 2%;
+  border-radius: 5%;
+
+background: #fe8daa;
+
+}
+
+#song_box_background2{
+  position: absolute;
+  width: 560px;
+  height: 200px;
+  left: 2%;
+  top: 35%;
+  border-radius: 5%;
+
+background: #fe8daa;
+
+}
+
+#song_box_background3{
+  position: absolute;
+  width: 560px;
+  height: 200px;
+  left: 2%;
+  top: 68%;
+  border-radius: 5%;
+
+background: #fe8daa;
+
+}
+
+.button1{
+
+  position: absolute;
+  width: 560px;
+  height: 200px;
+  left: 2%;
+  top: 2%;
+  border-radius: 5%;
+  cursor:pointer;
+
+background: #000000;
+border: 2px solid #cc93a2;
+
+}
+
+.button1:focus {
+  background-color:#cc93a2;
+}
+.button2{
+
+  position: absolute;
+  width: 560px;
+  height: 200px;
+  left: 2%;
+  top: 35%;
+  border-radius: 5%;
+  cursor:pointer;
+
+background: #000000;
+border: 2px solid #cc93a2;
+
+}
+
+.button2:focus {
+  background-color:#cc93a2;
+}
+
+.button3{
+
+  position: absolute;
+  width: 560px;
+  height: 200px;
+  left: 2%;
+  top: 68%;
+  border-radius: 5%;
+  cursor:pointer;
+
+background: #000000;
+border: 2px solid #cc93a2;
+
+}
+
+.button3:focus {
+  background-color:#cc93a2;
 }
 
 .music-container {
@@ -28,6 +167,8 @@ body {
   position: relative;
   margin: 100px 0;
   z-index: 10;
+  left: 15%;
+  bottom: -30%;
 }
 
 .img-container {
@@ -37,7 +178,7 @@ body {
 
 .img-container::after {
   content: '';
-  background-color: #fff;
+  background-color: rgb(0, 0, 0);
   border-radius: 50%;
   position: absolute;
   bottom: 100%;
@@ -101,7 +242,7 @@ body {
 }
 
 .music-info {
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 93, 93, 0.5);
   border-radius: 15px 15px 0 0;
   position: absolute;
   top: 0;
