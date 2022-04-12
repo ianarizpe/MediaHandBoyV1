@@ -1,6 +1,6 @@
 # MediaHand READER Version 1.2
 
-This media player currently features three hit generic songs 
+This media player currently features three hit generic songs and now has a front end ! (intructions page and overall styling pending)
 
 you can play them the old boring way...with buttons...
 
