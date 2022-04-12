@@ -101,7 +101,7 @@ function draw() {
 
   // Draw the video
   //canvas = canvasElement;
-  canvas.position(-40, 0);
+  canvas.position(0, 0);
   image(video, 0, 0);
   //canvas.hide();
   //image(canvas, 0, 0);
