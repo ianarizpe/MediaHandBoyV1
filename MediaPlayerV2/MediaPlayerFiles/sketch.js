@@ -1,3 +1,6 @@
+current_counter = 0;  
+counter = 0;
+
 // Teachable Machine
 // The Coding Train / Daniel Shiffman
 // https://thecodingtrain.com/TeachableMachine/1-teachable-machine.html
@@ -112,38 +115,32 @@ function draw() {
   
   // Pick an emoji, the "default" is train
   let media = "play video";
-    play =true;
+    //play = true;
+
   if (label == "palms open" && labelpercent >= 0.99999) {
     media = "pause video";
     //playSong();
     pauseSong();
   } else if (label == "thumbs down" && labelpercent >= 0.99) {
-    media = "last song ";
-    //prevSong();
-    /*
-    songIndex--;
-
-    if (songIndex < 0) {
-      songIndex = songs.length - 1;
-    }
-    while(play){
-    loadSong(songs[songIndex]);
-    play = false;
-    break;
-    play = false;
+    media = current_counter;
+    current_counter = current_counter + 1;
+    if (current_counter - 60 == counter){
+      prevSong();
+      counter = current_counter;
+     }
     
-    playSong();
-    
-  } */
-
   } else if (label == "thumbs up" && labelpercent >= 0.9) {
-    media = "next song";
-    /*
+    media = current_counter;
+    //nextSong();
+
+    current_counter = current_counter + 1;
+   //current_counter = current_counter + 1;
+   if (current_counter - 60 == counter){
     nextSong();
-    noloop();
-    loop();
-    */
-  }else if (label == "one" && labelpercent >= 0.9) {
+    counter = current_counter;
+   } 
+   
+  }else if (label == "one" && labelpercent >= 0.99) {
     media = "play";
     playSong();
   }
