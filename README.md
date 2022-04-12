@@ -31,8 +31,9 @@ same media player as source material but doesnt have gestures working, this will
 3. custom fonts for page headings
 4. robust playlist
 5. button to enable/disable hand controls
-6. button to turn camera off _optional_
-7. button to show media pipe skeleton _optional_
+6. make sure all songs are one that are not copyrighted and ones we have permission to use
+7. button to turn camera off _optional_
+8. button to show media pipe skeleton _optional_
 
 
 
