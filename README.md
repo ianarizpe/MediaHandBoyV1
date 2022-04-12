@@ -27,11 +27,12 @@ same media player as source material but doesnt have gestures working, this will
 ## THINGS THAT NEED TO BE ADDED (you can add things here too as long as you are implementing other ideas!!)
 
 1. buttons to navigate BACK to pages
-2. custom fonts for page headings
-3. robust playlist
-4. button to enable/disable hand controls
-5. button to turn camera off _optional_
-6. button to show media pipe skeleton _optional_
+2. *AN INTRUCTIONS PAGE (FULL OF INFORMATION)* 
+3. custom fonts for page headings
+4. robust playlist
+5. button to enable/disable hand controls
+6. button to turn camera off _optional_
+7. button to show media pipe skeleton _optional_
 
 
 
