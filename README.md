@@ -1,4 +1,4 @@
-# MediaHand READER V1
+# MediaHand READER Version 1.2
 
 This media player currently features three hit generic songs 
 
@@ -12,6 +12,7 @@ you can play them the old boring way...with buttons...
  ...(thumbs up and down currently broken due to a rapid song switching bug)
 
 ### **MERGED FILES (where they went/name change/omission)**
+1. front end crew 
 - _intro.html and intro.css_  
 Moved into MediaPlayer with same names, changed button to link to HTML file called mediaplayer.html instead of blank "instruct.html"
 - _instruct.html_  `ommitted` 
@@ -19,6 +20,19 @@ because it was blank other than the words "media player" so it was replaced with
 - _player.html (songs.js & .css)_ `ommitted `  (color hex codes will be pulled to match app blue and the songs should be added too)
 same media player as source material but doesnt have gestures working, this will be replaced by playlist.html which was started by alan, this page is closer to what the playlist page should look like. once the intructions page is added inbetwwen media player and intro *this page should be the fourth page* in the line , after clicking next on the media player page
 - _config.yml_ it is currently added in , but currently is not in use. if it is not used it will also be `ommitted` , for now we are using basic CSS and it is working just fine, please talk to me about implementing this so that way you have the best chance of succeeding . As of now it has not been used and Plain Vanilla CSS has been the way of it being sylized so far. Don't add clutter if it doesnt need to be there !!!
+2. updates for alan (backend)
+- _index.html_ this has been moved and changed into "playlist.html" such that it was not all lumped onto the same page as the media player on the other site, this html file also has its own js file called "mediaForPlaylist" such that the canvas can be adjusted for this page
+- _sketch.js_ your additions to the thumbs up and thumbs down was nice and we would benefit from more creative solutions such like this one. The counnter works well as long as the computer is not lagging, if the counter is lagging the songs move slower . (this wont be an issue for demo or presentation but just a good thing to think about if you wanted to prevent potential issues :) ) 
+
+## THINGS THAT NEED TO BE ADDED (you can add things here too as long as you are implementing other ideas!!)
+
+1. buttons to navigate BACK to pages
+2. custom fonts for page headings
+3. robust playlist
+4. button to enable/disable hand controls
+5. button to turn camera off _optional_
+6. button to show media pipe skeleton _optional_
+
 
 
 
