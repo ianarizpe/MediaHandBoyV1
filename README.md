@@ -32,8 +32,11 @@ same media player as source material but doesnt have gestures working, this will
 4. robust playlist
 5. button to enable/disable hand controls
 6. make sure all songs are one that are not copyrighted and ones we have permission to use
-7. button to turn camera off _optional_
-8. button to show media pipe skeleton _optional_
+7. add a sidebar or header to navigate
+8. be able to port in from another music service 
+9. train more photos 
+11. button to turn camera off _optional_
+12. button to show media pipe skeleton _optional_
 
 
 
