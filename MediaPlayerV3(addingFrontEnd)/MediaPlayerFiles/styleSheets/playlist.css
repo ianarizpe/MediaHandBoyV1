@@ -286,3 +286,13 @@ video {
   left: 50%;
   transform:translateX(-50%);
 }
+
+.anybutton {
+  bottom:9%;
+  left:55%;
+  width:100px;
+  height: 40px;
+  position: absolute;
+  z-index: 2;
+  background: orange; 
+  }
