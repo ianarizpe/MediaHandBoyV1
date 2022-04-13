@@ -296,3 +296,11 @@ video {
   z-index: 2;
   background: orange; 
   }
+
+  #image{
+    bottom:50%;
+     left:55%;
+     width:100px;
+  height: 40px;
+    position: absolute;
+  }
