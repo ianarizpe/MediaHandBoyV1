@@ -9,7 +9,7 @@ you can play them the old boring way...with buttons...
  SIMPLY HOLD UP A ONE TO PLAY OR HOLD YOUR PALM UP TO PAUSE
  
  
- ...(thumbs up and down currently broken due to a rapid song switching bug)
+ thumbs up and thumbs down to move forward and back
 
 ### **MERGED FILES (where they went/name change/omission)**
 1. front end crew 
@@ -29,11 +29,15 @@ same media player as source material but doesnt have gestures working, this will
 1. buttons to navigate BACK to pages
 2. *AN INTRUCTIONS PAGE (FULL OF INFORMATION)* 
 3. custom fonts for page headings
-4. robust playlist
-5. button to enable/disable hand controls
-6. make sure all songs are one that are not copyrighted and ones we have permission to use
-7. button to turn camera off _optional_
-8. button to show media pipe skeleton _optional_
+4. fix intro and all other pages so that they work when you resize window, the intro page looks all lopsided...even when in full screen
+5. robust playlist
+6. button to enable/disable hand controls
+7. make sure all songs are one that are not copyrighted and ones we have permission to use
+8. add a sidebar or header to navigate
+9. be able to port in from another music service 
+10. train more photos 
+11. button to turn camera off _optional_
+12. button to show media pipe skeleton _optional_
 
 
 
