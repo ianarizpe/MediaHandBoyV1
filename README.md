@@ -29,12 +29,13 @@ same media player as source material but doesnt have gestures working, this will
 1. buttons to navigate BACK to pages
 2. *AN INTRUCTIONS PAGE (FULL OF INFORMATION)* 
 3. custom fonts for page headings
-4. robust playlist
-5. button to enable/disable hand controls
-6. make sure all songs are one that are not copyrighted and ones we have permission to use
-7. add a sidebar or header to navigate
-8. be able to port in from another music service 
-9. train more photos 
+4. fix intro and all other pages so that they work when you resize window, the intro page looks all lopsided...even when in full screen
+5. robust playlist
+6. button to enable/disable hand controls
+7. make sure all songs are one that are not copyrighted and ones we have permission to use
+8. add a sidebar or header to navigate
+9. be able to port in from another music service 
+10. train more photos 
 11. button to turn camera off _optional_
 12. button to show media pipe skeleton _optional_
 
