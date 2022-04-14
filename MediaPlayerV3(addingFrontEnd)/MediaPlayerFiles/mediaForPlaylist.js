@@ -114,11 +114,11 @@ function draw() {
   text(label, (width / 2) -200 , height - 16);
   
   // Pick an emoji, the "default" is train
-  let media = "play video";
+  let media = "play media";
     //play = true;
 
   if (label == "palms open" && labelpercent >= 0.99999) {
-    media = "pause video";
+    media = "pause media";
     //playSong();
     pauseSong();
   } else if (label == "thumbs down" && labelpercent >= 0.99) {
